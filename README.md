@@ -1,6 +1,8 @@
 # 🪐 PlutoAI : One Chat at a Time.
 by Songfurina
 
+**Bachelor project · Bachelor in Computer Forensic (Hons), Management and Science University (2024)**
+
 **PlutoAI** is an AI-powered chatbot built with OpenAI's GPT model and Streamlit, designed for seamless and intelligent interactions. Whether you're a coder, creative, or just curious, PlutoAI is here to simplify your queries and provide insightful responses.
 
 ## 🌟 Features
@@ -17,30 +19,30 @@ by Songfurina
 - Styling: Custom CSS for enhanced visuals
 
 ## 📦  Installation
-1. **Clone this Repository**:
+1. **Clone this repository**
    ```bash
-   git clone https://github.com/songfurina/OpenAI-Powered-Chatbots.git
-   cd PlutoAI
-   
-2. **Install Dependencies**:
+   git clone https://github.com/ainunizhar/OpenAI-Powered-Chatbots.git
+   cd OpenAI-Powered-Chatbots
+   ```
+2. **Install dependencies**
    ```bash
    pip install -r requirements.txt
-
-3. **Set Up API Key**:
-- Add your OpenAI API key in the .streamlit/secrets.toml file:
-[default]
-OPEN_API_KEY = "your_openai_api_key"
-- Please generate your own API key from OpenAI: https://platform.openai.com/account/api-keys.
-
-4. **Run the App**:
+   ```
+3. **Set up your API key** in `.streamlit/secrets.toml` (generate your own key at
+   https://platform.openai.com/account/api-keys):
+   ```toml
+   OPEN_API_KEY = "your_openai_api_key"
+   ```
+4. **Run the app**
    ```bash
    streamlit run main.py
+   ```
 
 ## 📂 Project Files
 
-- main.py: Main application file.
-- requirements.txt: Dependencies file.
-- .streamlit/secrets.toml: File to store your OpenAI API key.
+- `main.py`: main application file.
+- `requirements.txt`: dependencies.
+- `.streamlit/secrets.toml`: where your OpenAI API key goes (never commit a real key).
 
 ## ✨ Usage
 
